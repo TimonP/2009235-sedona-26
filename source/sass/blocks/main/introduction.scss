@@ -5,7 +5,7 @@
   position: relative;
 
   &--hero {
-    background-image: url("../../../img/back-desktop.jpg");
+    background-image: url("../img/back-desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@
     background-color: variables.$special-cold-active;
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../../img/back-desktop@2x.jpg");
+      background-image: url("../img/back-desktop@2x.jpg");
     }
 
     &::after {
@@ -23,7 +23,7 @@
       position: absolute;
       bottom: 0;
       width: 100%;
-      background-image: url("../../../img/intro-triangle.svg");
+      background-image: url("../img/intro-triangle.svg");
       background-repeat: no-repeat;
       background-position: center bottom;
     }
@@ -54,7 +54,7 @@
     position: absolute;
     bottom: -21px;
     width: 100%;
-    background-image: url("../../../img/intro-info-triangle.svg");
+    background-image: url("../img/intro-info-triangle.svg");
     background-repeat: no-repeat;
     background-position: center bottom;
 
