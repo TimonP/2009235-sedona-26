@@ -124,7 +124,7 @@
 
     &::before {
       @include benefits-icon;
-      background-image: url("../../../img/hause.svg");
+      background-image: url("../img/hause.svg");
     }
 
     @include mixins.tablet {
@@ -138,7 +138,7 @@
 
     &::before {
       @include benefits-icon;
-      background-image: url("../../../img/eat.svg");
+      background-image: url("../img/eat.svg");
     }
   }
 
@@ -149,7 +149,7 @@
 
     &::before {
       @include benefits-icon;
-      background-image: url("../../../img/present.svg");
+      background-image: url("../img/present.svg");
     }
 
     @include mixins.tablet {
