@@ -19,7 +19,7 @@
   position: relative;
   float: right;
   z-index: 3;
-  background-image: url("../../../img/icon-menu-open.svg");
+  background-image: url("../img/icon-menu-open.svg");
   background-repeat: no-repeat;
   background-position: center;
   transition: variables.$transition-all;
@@ -34,7 +34,7 @@
   }
 
   &--close {
-    background-image: url("../../../img/icon-menu-close.svg");
+    background-image: url("../img/icon-menu-close.svg");
   }
 
   @include mixins.tablet {
